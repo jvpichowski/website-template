@@ -7,6 +7,9 @@ baseurl:             ''
 paginate:            5
 permalink:           pretty
 
+github:
+  repo:              https://github.com/jvpichowski         
+
 # About/contact
 author:
   name:              Jan von Pichowski
