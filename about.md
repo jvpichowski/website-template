@@ -3,27 +3,20 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+### Hi there 👋
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I'm Jan, a computer science master's student from Würzburg Germany.
 
-There are currently two themes built on Poole:
+My sweet spot is embedded development with a focus on space-related control software and computer vision.
+During my studies, I got the opportunity to work on three [REXUS/BEXUS](http://rexusbexus.net/) projects.
+We built an autonomous vision system on a high-altitude balloon and a novel recovery system, called [Daedalus](https://wuespace.de/daedalus/), which is dropped from sounding rockets.
+This is an amazing journey and I like to present our open source ground station [Telestion](https://github.com/TelestionTeam) to you, which powers these projects.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+If you are lucky you will probably catch me fiddling with my passion: computer game projects.
+To put some more effort into this hobby I started a double degree in games engineering. 
+After half a year of work, I proudly present our first game prototype [Back in Time](https://www.youtube.com/watch?v=irkcqxGfY24&list=PLthd3ST3SckSovN5qMWRHe4go_FHJtczU&index=12).
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Besides those activities, I like to attend competitions and hackathons.
+I spend some time in internships and working in research groups at my university and CLAAS Gmbh.
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Just drop me a mail if you are interested in [my projects](https://github.com/jvpichowski-projects) or like to work together with me on new ideas.
