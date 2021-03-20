@@ -1,7 +1,7 @@
 # Setup
 title:               jvpichowski
 tagline:             'blog'
-description:         ''
+description:         'A computer sciences student on his way through a fascinating world.'
 url:                 https://jvpichowski.github.io
 baseurl:             ''
 paginate:            5
@@ -10,13 +10,13 @@ permalink:           pretty
 # About/contact
 author:
   name:              Jan von Pichowski
-  url:               https://jvpichowski.github.io
-  email:             mail@mail.com
+  url:               https://github.com/jvpichowski
+#  email:             mail@mail.com
 
 # Gems
 plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             1.1.0
-google_analytics_id: #UA-XXXX-Y
+# version:             1.1.0
+# google_analytics_id: #UA-XXXX-Y
