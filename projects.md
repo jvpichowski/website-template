@@ -1,3 +1,8 @@
+---
+layout: page
+title: Projects
+---
+
 Here I list most of my independent projects.
 
 ## Hey, thanks for the fish!
