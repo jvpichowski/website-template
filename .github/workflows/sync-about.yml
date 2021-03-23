@@ -23,11 +23,15 @@ jobs:
           TOKEN: ${{ secrets.SYNC_FILE }}
       - name: Create local changes
         run: |
-          sed -i '1i ' about.md
-          sed -i '1i---' about.md
-          sed -i '1ititle: About' about.md
-          sed -i '1ilayout: page' about.md
-          sed -i '1i---' about.md
+          ed -s text.txt << EOF \
+          0 i \
+          --- \
+          layout: page \
+          title: About \
+          --- \
+          . \
+          w \
+          EOF \
       - name: Commit files
         run: |
           git config --local user.name "github-actions[bot]"
