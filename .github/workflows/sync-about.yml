@@ -1,0 +1,39 @@
+name: Sync About File
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  file_sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetching Local Repository
+        uses: actions/checkout@master
+      - name: File Sync
+        uses: kbrashears5/github-action-file-sync@v2.0.0
+        with:
+          REPOSITORIES: |
+            jvpichowski/jvpichowski@master
+          FILES: |
+            README.md=about.md
+          TOKEN: ${{ secrets.SYNC_FILE }}
+      - name: Create local changes
+        run: |
+          sed -i '1i' about.md
+          sed -i '1i---' about.md
+          sed -i '1ititle: About' about.md
+          sed -i '1ilayout: page' about.md
+          sed -i '1i---' about.md
+      - name: Commit files
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Added page header to about file" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.SYNC_FILE }}
+          branch: ${{ github.ref }}
