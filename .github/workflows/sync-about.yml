@@ -23,7 +23,7 @@ jobs:
           TOKEN: ${{ secrets.SYNC_FILE }}
       - name: Create local changes
         run: |
-          sed -i '1i' about.md
+          sed -i '1i ' about.md
           sed -i '1i---' about.md
           sed -i '1ititle: About' about.md
           sed -i '1ilayout: page' about.md
