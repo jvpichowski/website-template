@@ -13,7 +13,7 @@ Pleicherschulgasse 6\
 
 Telephone: 01781615370\
 E-Mail: [janvonpichowski@gmail.com](mailto:janvonpichowski@gmail.com)\
-Internet address: [jvpichowski.github.io](jvpichowski.github.io)\
+Internet address: [jvpichowski.github.io](https://jvpichowski.github.io)
 
 ## Disclaimer
 ### Accountability for content
