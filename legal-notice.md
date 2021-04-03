@@ -6,7 +6,7 @@ title: Legal Notice
 Information in accordance with Section 5 TMG
 
 Jan von Pichowski\
-Pleicherschulgasse, 6\
+Pleicherschulgasse 6\
 97070 Würzburg
 
 ## Contact Information
