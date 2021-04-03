@@ -2,7 +2,7 @@
 title:               jvpichowski
 tagline:             'blog'
 description:         'A computer sciences student on his way through a fascinating world.'
-url:                 https://jvpichowski.github.io
+url:                 https://jvpichowski.github.io/website-template
 baseurl:             ''
 paginate:            5
 permalink:           pretty
