@@ -1,3 +1,4 @@
-# jvpichowski blog
+# Website Templae
 
-This repository contains the resources for my blog at [jvpichowski.github.io](jvpichowski.github.io).
+This repository contains a template for my websites.
+Just add some pages or posts in the `_posts` folder.
